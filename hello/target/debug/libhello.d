@@ -1,0 +1,1 @@
+/mnt/c/Users/schne/Desktop/Extra/programming_projects/Rust_Tutorial_Programs/hello/target/debug/libhello.rlib: /mnt/c/Users/schne/Desktop/Extra/programming_projects/Rust_Tutorial_Programs/hello/src/lib.rs

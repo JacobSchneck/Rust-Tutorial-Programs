@@ -8,6 +8,7 @@ pub struct Config {
     pub case_sensitive: bool, 
 }
 
+
 impl Config {
     pub fn new(mut args: env::Args) -> Result<Config, &'static str> {
         // if args.len() < 3 {
@@ -92,8 +93,8 @@ mod tests {
         let query = "duct";
         let contents = "\
 Rust:
-safe, fast, productive.
-Duct tape";
+safe, fast, produtive.
+Dut tape";
 
         assert_eq!(vec!["safe, fast, productive."], search(query, contents));
     }
